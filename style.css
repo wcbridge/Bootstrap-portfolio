@@ -1,0 +1,42 @@
+body {
+    background-image: url("images/cheap_diagonal_fabric.png");
+}
+
+p {
+    position: relative;
+    line-height: 200%;
+    font-weight: 500
+}
+
+#namebox {
+   color: white;
+   background-color: #4aaaa5;
+   padding: 20px;
+   margin-right: 500px; 
+}
+
+
+.card-title {
+    color: #4aaaa5;
+}
+
+.card-img-top {
+    height: 250px;
+    width: auto;
+    margin-right: 30px; 
+    float: left;
+}
+
+.img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+.card-footer {
+    color: white;
+    text-align: center;
+    background-color: #666666
+}
