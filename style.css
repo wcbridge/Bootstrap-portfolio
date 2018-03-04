@@ -5,7 +5,8 @@ body {
 p {
     position: relative;
     line-height: 200%;
-    font-weight: 500
+    font-weight: 500;
+
 }
 
 #namebox {
@@ -36,7 +37,21 @@ p {
 }
 
 .card-footer {
+    position: relative;
     color: white;
     text-align: center;
     background-color: #666666
+}
+
+@media screen and (max-width: 1060px)
+{
+
+
+.card-body {
+    position: relative;
+   
+    float: left;
+}
+
+
 }
