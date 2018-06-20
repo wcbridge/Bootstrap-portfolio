@@ -14,6 +14,7 @@ p {
    background-color: #4aaaa5;
    padding: 20px;
    margin-right: 500px; 
+   margin-bottom: 5px;;  
 }
 
 
@@ -26,6 +27,18 @@ p {
     width: auto;
     margin-right: 30px; 
     float: left;
+}
+
+.container {
+    max-width: 70%;
+    float: left;
+}
+
+
+
+.port {
+    max-width: 150px;
+    max-height: auto;
 }
 
 .img {
@@ -43,15 +56,3 @@ p {
     background-color: #666666
 }
 
-@media screen and (max-width: 1060px)
-{
-
-
-.card-body {
-    position: relative;
-   
-    float: left;
-}
-
-
-}
